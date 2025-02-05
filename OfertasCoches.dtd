@@ -1,0 +1,16 @@
+<!ELEMENT OfertasCoches (Coche+)>
+<!ELEMENT Coche (Marca, Modelo, Matricula, Odometro, PrecioOriginal, PrecioOferta)>
+<!ELEMENT Marca (#PCDATA)>
+<!ATTLIST Marca paisOrigen CDATA #REQUIRED>
+<!ATTLIST Marca rating (1|2|3|4|5) #REQUIRED>
+<!ELEMENT Modelo (#PCDATA)>
+<!ATTLIST Modelo año CDATA #REQUIRED>
+<!ATTLIST Modelo version CDATA #IMPLIED>
+<!ELEMENT Matricula (#PCDATA)>
+<!ATTLIST Matricula paisOrigen CDATA #REQUIRED>
+<!ELEMENT Odometro (#PCDATA)>
+<!ATTLIST Odometro unidad (km|millas) #REQUIRED>
+<!ELEMENT PrecioOriginal (#PCDATA)>
+<!ATTLIST PrecioOriginal moneda (euros|dolares|otra) #REQUIRED>
+<!ELEMENT PrecioOferta (#PCDATA)>
+<!ATTLIST PrecioOferta moneda (euros|dolares|otra) #REQUIRED>
