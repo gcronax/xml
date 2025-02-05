@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE OfertasCoches SYSTEM "OfertasCoches.dtd">
+<OfertasCoches>
+    <Coche>
+        <Marca paisOrigen="japon" rating="5" >Toyota</Marca>
+        <Modelo año="2000" version="a">Corolla</Modelo>
+        <Matricula paisOrigen="japo">ABC-123</Matricula>
+        <Odometro unidad="km"></Odometro>
+        <PrecioOriginal moneda="euros">20</PrecioOriginal>
+        <PrecioOferta moneda="euros">18</PrecioOferta>
+    </Coche>
+    <Coche>
+        <Marca paisOrigen="japon" rating="5" >Toyota</Marca>
+        <Modelo año="2000" >Corolla</Modelo>
+        <Matricula paisOrigen="japo">ABC-123</Matricula>
+        <Odometro unidad="km"></Odometro>
+        <PrecioOriginal moneda="euros">20</PrecioOriginal>
+        <PrecioOferta moneda="euros">18</PrecioOferta>
+    </Coche>
+</OfertasCoches>
